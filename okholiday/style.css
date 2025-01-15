@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    /* border: 1px solid red; */
+}
+
+/* Header Section  */
+.head{
+    height: 1080px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.headimg{
+    align-items: baseline;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    opacity: 0.4;
+}
+.logo{
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+.headnav{
+    display: flex;
+}
+.navmenu{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    gap: 25px;
+}
+li{
+    display: flex;
+    text-transform: capitalize;
+    color: #cacaca;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+}
+.headbutton{
+    display: flex;
+    position: absolute;
+    top: -2px;
+    padding: 7px;
+    font-weight: 500;
+    color: #cacaca;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Middle Article in Header */
+.headarticle{
+    position: absolute;
+    top: 40%;
+    color: #ffffff;
+    text-align: center;
+    left: 25%;
+}
+.headh4{
+    font-size: 18px;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+.headh1{
+    font-size: 40px;
+    margin: 25px;
+}
+.headp{
+    margin: 25px;
+}
+.headlast{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+.headline{
+    border-style: solid;
+    border-color: #ffffff;
+    height: 80px;
+    width: 0;
+    margin-left: 50%;
+}
+.scroll{
+    color: #ffffff;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* -------------------------------------------- */
+/* Body Section */
+
+.bodysec{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 870px;
+    margin-left: 25%;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.box1{
+    float: left;
+}
+.box2{
+    float: left;
+}
+.box3{
+    float: left;
+}
+.box4{
+    float: left;
+}
+
+.box h2{
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.box p{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+
+/* Section 1 */
+
+.sec1{
+    width: 100%;
+    height: 550px;
+    background-color: #9AD0CF;
+}
+.sec11{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+.sec1imgd{
+    height: 100px;
+    margin: 10px;
+}
+.sec1h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.sec1img{
+    margin-top: 50px;
+}
+.sec1but{
+    border: solid;
+    background-color: #9AD0CF;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+/* Image section */
+
+.imgsec{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    height: 900px;
+    padding-left: 11%;
+}
+.pic{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+}
+.pic1{
+    float: left;
+}
+.pic2{
+    float: left;
+}
+.pic3{
+    float: left;
+}
+.pic4{
+    float: left;
+}
+.pic5{
+    float: left;
+}
+.pic4{
+    float: left;
+}
+
+.pic h3{
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+/* Section 3 */
+
+.sec3{
+    height: 400px;
+    background-color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec3d{
+    height: 400px;
+    background-image: url(./beach-sun-evening-2836300.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.sec3art{
+    color: #fff;
+    width: 50%;
+    left: 25%;
+    position: relative;
+    bottom: 250px;
+    text-align: start;
+    
+}
+.sec3art h4{
+    font-weight: 700;
+    padding: 15px;
+}
+.sec3art h2{
+    padding: 15px;
+}
+.sec3art p{
+    font-weight: 400;
+    padding: 15px;
+}
+
+/* Image Section 4 */
+
+.sec4{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.photo{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    
+}
+.photo1{
+    float: left;
+}
+.photo2{
+    float: left;
+}
+.photo3{
+    float: left;
+}
+.photo4{
+    float: left;
+}
+.photo5{
+    float: left;
+}
+.photo6{
+    float: left;
+}
+
+/* Section 5 */
+
+.sec5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.sec5head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+.sec5head h2{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sec5head img{
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.sec5head p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 5px;
+}
+.sec5m{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    float: left;
+}
+.sec5mid{
+    height: 500px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sec5mid img{
+    height: 500px;
+    width: 400px;
+}
+.sec5foot{
+    height: 400px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sec5foot img{
+    height: 400px;
+    width: 400px;
+}
+
+/*------------- Section 6 ---------------------*/
+
+/* Image  */
+
+.sec6{
+    /* height: 800px;
+    overflow: hidden; */
+}
+
+.sec61{
+    height: 600px;
+    background-color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec62{
+    height: 600px;
+    background-image: url(./testimonail-section-bg-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+/* Body */
+
+.sec6h{
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    color: #fff;
+}
+.sec6h p{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.sec6h h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+/* Block Section */
+
+.sec6block{
+    display: flex;
+    position: absolute;
+    bottom: -5600px;
+    align-items: center;
+    margin-left: 18%;
+    
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #1A1A1A;
+    float: left;
+    border-radius: 35px;
+}
+.block1{
+    color: #fff;
+    margin: 10px;
+}
+.block2{
+    color: #fff;
+    margin: 10px;
+}
+.block3{
+    color: #fff;
+    margin: 10px;
+}
+
+.blockimg{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.sec6article{
+    margin-top: 20px;
+    text-align: center;
+}
+.sec6article p{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec6article h3{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* ----------------------------------------------------- */
+
+/* Contact Section */
+
+.contactsec{
+    background-color: #E9ECEF;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact1{
+    text-align: center;
+}
+.contact1 h2{
+    padding: 20px;
+}
+.contact1 h1{
+    margin: 35px;
+}
+
+form{
+    background-color: #fff;
+    width: 900px;
+    height: 600px;
+    left: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+form p{
+    font-size: 20px;
+    margin: 10px;
+}
+form input{
+    padding: 18px;
+    width: 300px;margin-left: 20px;
+    margin: 0 0 10px 0;
+}
+::placeholder{
+    font-size: 20px;
+}
+.contactbut{
+    margin-top: 20px;
+    padding: 13px;
+    border: 1px solid #000;
+}
+
+/* ------------------------------------- */
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    background-color: #1A1A1A;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.blockf{
+    width: 300px;
+    height: 200px;
+}
+/* ---------------------- */
+/* Block1 */
+
+.blockf1{
+    margin-right: 10px;
+    word-spacing: 3px;
+}
+.blockf1 img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.blockf1 p{
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.blockf1 i{
+    margin-right: 10px;
+}
+
+/* --------------- */
+/* Block2 */
+
+.blockf2{
+    margin-right: 10px;
+    word-spacing: 3px;
+}
+.blockf2 h2{
+    margin-bottom: 25px;
+}
+.blockf2 p{
+    margin-top: 5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.blockf2 a{
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.blockf2 i{
+    color: #fff;
+}
+
+/* --------------- */
+/* Block3 */
+
+.blockf3{
+    margin-right: 10px;
+    word-spacing: 3px;
+}
+.blockf3 h2{
+    margin-bottom: 20px;
+}
+.blockf3 li{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* --------------- */
+/* Block4 */
+
+.blockf1{
+    margin-right: 10px;
+    word-spacing: 3px;
+}
+.blockf4 h2{
+    margin-bottom: 20px;
+}
+.blockf4 p{
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.blockf4 i{
+    margin-right: 5px;
+}
+
+/* ------------------------------------------ */
+
+/* line */
+
+.linef{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* ----------------------------------------- */
+
+/* Credit Section */
+
+.credit{
+    height: 70px;
+    background-color: #1A1A1A;
+    color: #fff;
+    width: 100%;
+    float: left;
+}
+.credit1{
+    width: 50%;
+    font-size: 15px;
+    float: left;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+.credit2{
+    width: 50%;
+    font-size: 15px;
+    float: left;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Css End */

@@ -1,0 +1,171 @@
+@media only screen and (max-width: 600px) {
+
+    *{
+        /* border: 1px solid red; */
+    }
+
+    /* Header Section */
+    .head{
+        height: 720pxpx;
+        width: 100%;
+    }
+    .logo{
+        left: 50px;
+    }
+    .headnav{
+        visibility: hidden;
+    }
+    .headarticle{
+        top: 30%;
+        left: 0%;
+    }
+    .headlast{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+
+    /* Body Section */
+
+    .bodysec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1800px;
+        margin-left: 0%;
+    }
+    .box1{
+        height: 300px;
+    }
+
+    /* Section 1 */
+
+    .sec1{
+        width: 100%;
+        height: 550px;
+        background-color: #9AD0CF;
+    }
+
+    /* Image Section */
+    .imgsec{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 2800px;
+        padding-left: 0%;
+    }
+    
+
+    /* Section 3 */
+
+    
+    .sec3art{
+        color: #fff;
+        width: 80%;
+        left: 12%;
+        position: relative;
+        bottom: 300px;
+        text-align: start;
+        
+    }
+
+    /* Section 4 */
+    
+    .photo{
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        
+    }
+
+    /* Section 5 */
+
+    .sec5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+    .sec5head{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .sec5head p{
+        width: 70%;
+        text-align: center;
+    }
+
+    .sec5m{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Section 6 */
+
+    .sec61{
+        height: 1500px;
+    }
+    .sec62{
+        height: 1500px;
+    }
+
+    .sec6h{
+        bottom: 1400px;
+    }
+
+    .sec6block{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: -11300px;
+        /* justify-content: center; */
+        align-items: center;
+
+        margin-left: 5%;
+        
+    }
+    
+    /* Contact  */
+
+    form{
+        background-color: #fff;
+        width: 400px;
+        height: 600px;
+        left: 100px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    /* Footer Section */
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 900px;
+    }
+
+    /* Credit Section */
+
+    .credit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    .credit2{
+        padding-bottom: 5px;
+    }
+
+}
